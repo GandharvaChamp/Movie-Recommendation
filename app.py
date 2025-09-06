@@ -15,8 +15,8 @@ def fetch_poster(movie_id):
     return full_path
 
 
-movies_dict = pickle.load(open('movies_dict.pkl','rb'))
-movies = pd.DataFrame(movies_dict)
+# movies_dict = pickle.load(open('movies_dict.pkl','rb'))
+# movies = pd.DataFrame(movies_dict)
 with open("movies_title.pkl",'rb') as f:
     movies_title = pickle.load(f)
 
